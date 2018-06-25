@@ -1,3 +1,101 @@
+/* 
+Extra small devices (portrait phones, less than 544px) 
+
+*/
+.cart{
+border-radius: 50%;
+color:#F8297B;
+font-size:45px;
+position:relative;
+top: 50%;
+left:40%;
+}
+.badge1{
+border-radius: 50%;
+background-color:#3576FE;
+color: white;
+position:relative;
+top:40%;
+left:28%;
+}
+.discount{height:120px;width:120px;
+ background-color:white;
+ border-radius: 50%;
+ color:#F8297B;
+ padding:22px;
+ position:relative;
+ left:15px;
+ bottom:120px}/*1rem = 16px*/
+
+ .round_img{
+ 	width:270px;
+ 	height:270px;
+ 	border:10px solid white;
+ }
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) { 
+.badge1{
+position:relative;
+top:40%;
+left:34%;
+} 
+.discount{
+height:120px;
+width:120px;
+ padding:22px;
+ position:relative;
+ left:70px;
+ bottom:120px} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+.badge1{
+position:relative;
+top:46%;
+left:-20%;
+} 
+.cart{
+font-size:45px;
+position:relative;
+top: 50%;
+left:15%;
+}
+.discount{
+height:120px;
+width:120px;
+ padding:22px;
+ position:relative;
+ left:10px;
+ bottom:120px} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+.discount{
+height:120px;
+width:120px;
+ padding:22px;
+ position:relative;
+ left:80px;
+ bottom:120px} /*1rem = 16px*/
+ .round_img{
+ width:330px;
+ height:330px;}/*1rem = 16px*/
+.badge1{
+position:relative;
+top:47%;
+left:-10%;
+} 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) 
+@media (min-width: 1200px) {  
+} /*1rem = 16px*/    
+
+
+
 .box{
     width: 100%;
     height: 230px;
